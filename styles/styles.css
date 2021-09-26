@@ -1,38 +1,32 @@
+/*#2bfaa6
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: rgb(30, 33, 45);
 }
 
-div{
-    width: 100%;
+header{
     display: flex;
-    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     font-family: "Bonheur Royale",cursive;
-    font-size: 100px;
-    color: goldenrod;
-    text-shadow: 0 4px 8px rgba(255, 255, 255,0.19), 0 6px 20px rgba(255, 255, 255, 0.19);
+    font-size: 50px;
+    color: #B5DEFF;
+    text-shadow: 0 4px 8px #fd039a, 0 6px 20px #fd039a;
 }
+
 
 img{
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.7), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    box-shadow: 0 4px 8px 0 #fd039a, 0 6px 20px 0 #fd039a;
     margin: 20px;
-}
-
-nav{
-    background-color: #FFBBCC;
-    color: #99154E;
-    font-family: "Bonheur Royale",cursive;
-    font-size: 40px;
-    text-align: center;
-    border-radius: 10px;
-    text-shadow: 0 4px 8px rgba(255, 255, 255,0.19), 0 6px 20px rgba(255, 255, 255, 0.19);
-}
-ul{
-    display: flex;
-    justify-content:space-evenly;
-    margin: 0px;
-}
-li{
-    display: inline;
 }
