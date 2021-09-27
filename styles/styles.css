@@ -7,7 +7,6 @@
     padding: 0;
 }
 
-<<<<<<< HEAD
 html{
     height: 100%;
 }
@@ -15,10 +14,6 @@ html{
 body{   
     background-image: url("../images/fondo.png");
     height: 100%;
-=======
-body{
-    background-image: url("../images/fondo.png");
->>>>>>> main
 }
 
 header{
@@ -56,7 +51,6 @@ h1,h5{
     background-color: rgba(20, 22, 31,1);
 }
 
-<<<<<<< HEAD
 section{
     display: flex;
     justify-content: center;
@@ -80,5 +74,3 @@ blockquote{
     padding: 10px;
 }
 
-=======
->>>>>>> main
