@@ -7,13 +7,21 @@
     padding: 0;
 }
 
-body{
-    background-image: url("images/fondo.png");
+html{
+    height: 100%;
+}
+
+body{   
+    background-image: url("../images/fondo.png");
+    height: 100%;
 }
 
 header{
     display:flex;
     justify-content: center;
+    height: 100%;
+    background-image: url("../images/helado.png");
+    
 }
 
 
@@ -27,10 +35,12 @@ header{
     font-family: "Bonheur Royale",cursive;
     font-size: 40px;
     color: #B5DEFF;
-    background-color:#14161f;
+    background-color: rgba(20, 22, 31,0);
     text-shadow: 0 4px 8px #fd039a, 0 6px 20px #fd039a;
 }
-
+h1,h5{
+    background-color: rgba(20, 22, 31,0.8);
+}
 
 #logo{
     width: 350px;
@@ -38,4 +48,29 @@ header{
     border-radius: 50%;
     box-shadow: 0 4px 8px 0 #fd039a, 0 6px 20px 0 #fd039a;
     margin: 20px;
+    background-color: rgba(20, 22, 31,1);
 }
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url("../images/helado.png");
+    background-repeat:inherit;
+    color: white;
+}
+
+.mision{
+    width: 60%;
+    height: 60%;
+    box-shadow: 0 4px 8px 0 #fd039a, 0 6px 20px 0 #fd039a;
+    background-color: rgba(20, 22, 31,0.95);
+}
+
+blockquote{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
