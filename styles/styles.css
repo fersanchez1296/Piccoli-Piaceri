@@ -1,4 +1,6 @@
 /*#2bfaa6
+#1e212d
+#14161f
 */
 *{
     margin: 0;
@@ -6,24 +8,31 @@
 }
 
 body{
-    background-color: rgb(30, 33, 45);
+    background-image: url("../images/fondo.png");
 }
 
 header{
+    display:flex;
+    justify-content: center;
+}
+
+
+.present{
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 0;
     margin: 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-family: "Bonheur Royale",cursive;
-    font-size: 50px;
+    font-size: 40px;
     color: #B5DEFF;
+    background-color:#14161f;
     text-shadow: 0 4px 8px #fd039a, 0 6px 20px #fd039a;
 }
 
 
-img{
+#logo{
     width: 350px;
     height: 350px;
     border-radius: 50%;
