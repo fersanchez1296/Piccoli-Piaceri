@@ -65,7 +65,7 @@ h5{
 section{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     height: 100%;
     width: 100%;
@@ -74,13 +74,40 @@ section{
     color: white;
 }
 
+.contenedorMision, .contenedorVision{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
 
-.mision{
+.contenedorMision>img,.contenedorVision>img{
+    box-shadow: 0 4px 8px #457dbd, 0 6px 20px #457dbd;
+    animation-name: sombraImagen;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.contenedorVision{
+    direction: rtl;
+}
+
+
+
+#submision, #subvision{
+    align-self: center;
+}
+
+.texto{
+    align-items: flex-start;
     width: 60%;
-    height: 60%;
+    height: auto;
     box-shadow: 0 4px 8px #457dbd, 0 6px 20px #457dbd;
     background-color: rgba(20, 22, 31,0.95);
+    animation-name: sombraImagen;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
+
 
 p{
     text-align: center;
@@ -125,6 +152,24 @@ p{
 }
 
 
+@keyframes sombraImagen{
+    0%{
+        box-shadow: 0 4px 8px #457dbd, 0 6px 20px #457dbd;
+    }
+    30%{
+        box-shadow: 0 4px 8px #fd039a, 0 6px 20px #fd039a;
+    }
+    50%{
+        box-shadow: 0 4px 8px #2bfaa6, 0 6px 20px #2bfaa6;
+    }
+    80%{
+        box-shadow: 0 4px 8px #d7e234, 0 6px 20px #d7e234;
+    }
+    100%{
+        box-shadow: 0 4px 8px #b91919, 0 6px 20px #b91919;
+    }
+}
+
 @media (max-width: 1280px){
     body{  
         max-width: 100%;
@@ -135,7 +180,11 @@ p{
         height: auto;
     }
 
-    .mision{
+    .contenedorMision>img,.contenedorVision>img{
+        display: none;
+    }
+
+    .texto{
         width: 90%;
         margin: 15px;
         background-color: rgba(20, 22, 31,0.8);
